@@ -19,11 +19,11 @@ Usage
 ### Windows
 
 ```powershell
-Invoke-RestMethod https://raw.githubusercontent.com/Wizcorp/setit/master/windows.ps1 | powershell -command -
+Invoke-RestMethod https://bit.ly/setit-windows | powershell -command -
 ```
 
 ### MacOS
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/Wizcorp/setit/master/macos.sh | sh
+curl -fsSL https://bit.ly/setit-macos | sh
 ```
