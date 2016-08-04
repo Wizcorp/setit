@@ -30,6 +30,8 @@ brew install nvm
 echo 'export NVM_DIR="$HOME/.nvm"' >> ~/.bash_profile
 echo 'source "$(brew --prefix nvm)/nvm.sh"' >> ~/.bash_profile
 
+brew install git
+
 brew cask install google-chrome
 brew cask install unity-download-assistant
 brew cask install atom
