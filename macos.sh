@@ -32,6 +32,7 @@ echo 'source "$(brew --prefix nvm)/nvm.sh"' >> ~/.bash_profile
 
 brew install git
 
+brew cask install iterm2
 brew cask install google-chrome
 brew cask install unity-download-assistant
 brew cask install atom

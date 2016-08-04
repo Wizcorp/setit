@@ -13,6 +13,7 @@ Will install and configure:
 * Unity
 * Google Chrome
 * git
+* iTerm2 for macOS, and cmder on Windows
 
 Usage
 ------
