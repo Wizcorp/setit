@@ -16,7 +16,8 @@ install-package git -force -forcebootstrap
 
 Invoke-WebRequest -Uri https://download.microsoft.com/download/0/B/C/0BC321A4-013F-479C-84E6-4A2F90B11269/vs_community.exe -OutFile vs_community.exe
 Invoke-WebRequest -Uri https://raw.githubusercontent.com/daptiv/visualstudio/master/files/default/2015/AdminDeployment-community.xml -OutFile admin.xml
-vs_community.exe /quiet /AdminFile admin.xml
+# /full instead of /AdminFile for full install
+.\vs_community.exe /quiet /passive /AdminFile admin.xml
 rm vs_community.exe
 rm admin.xml
 
