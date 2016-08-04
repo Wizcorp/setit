@@ -1,5 +1,5 @@
 write-host "Set up chocolatey"
-get-packageprovider -name chocolatey
+get-packageprovider -name chocolatey -force -forcebootstrap
 
 write-host "Installing"
 install-package GoogleChrome
